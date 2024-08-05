@@ -1,8 +1,7 @@
 +++
-title = 'Resume'
-date = 2024-08-04T15:42:31-04:00
+menu = "resume"
+type = "resume"
+date = 2024-08-05T16:18:42-04:00
 +++
 
-
-![resume](../public/images/resume.jpg)
-
+![about](../images/resume.jpg)
