@@ -1,0 +1,29 @@
+[home_services]
+    other = "Services"
+
+[home_recentworks]
+    other = "Recent works"
+
+[home_clients]
+    other = "Clients"
+
+[404_title]
+    other = "404"
+[404_description]
+    other = "Oops! This page doesn't exist!"
+
+[footer_contact_title]
+    other = "Contact"
+
+[footer_followme_title]
+    other = "Contact"
+
+[footer_text_title]
+    other = "Info"
+[footer_text1]
+    other = "themes/hugo-inito/i18n/en.toml >> footer_text1"
+[footer_form_title]
+    other = "Form widget"
+
+[recent_works_click_text]
+    other = "See details"

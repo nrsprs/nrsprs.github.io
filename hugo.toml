@@ -1,6 +1,6 @@
-baseURL = "https://example.com/"
+baseURL = "https://nrsprs.github.io/"
 languageCode = "en"
-title = "Initio - Free, multipurpose html5 template by GetTemplate"
+title = "Nick Spears - Robtics Software Developer"
 theme = "hugo-initio"
 
 [params]
@@ -33,9 +33,13 @@ theme = "hugo-initio"
     url = "/"
     weight = 1
 [[menu.main]]
-    name = "blog"
-    url = "/post/"
-    weight = 5
+    name = "resume"
+    url = "/resume/"
+    weight = 2
+[[menu.main]]
+    name = "about"
+    url = "/about/"
+    weight = 3
 
 [params.disqus]
     site = "hugo-initio-site.disqus.com"
@@ -48,13 +52,6 @@ theme = "hugo-initio"
     trackerID = "GA-000000000-0"
 
 [[params.social]]
-	title = "google+"
-	url = "https://plus.google.com/+nickname"
-    icon = "fab fa-google-plus-square"
-    footer = false
-    sharethis = true
-    network = "googleplus"
-[[params.social]]
 	title = "linkedin"
 	url = "https://www.linkedin.com/in/nickspears"
     icon = "fab fa-linkedin"
@@ -63,7 +60,7 @@ theme = "hugo-initio"
     network = "linkedin"
 [[params.social]]
 	title = "github"
-	url = "https://github.com/nickname"
+	url = "https://github.com/nrsprs"
     icon = "fab fa-github"
     footer = true
     sharethis = false

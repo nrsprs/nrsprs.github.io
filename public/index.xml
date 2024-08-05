@@ -1,11 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Initio - Free, multipurpose html5 template by GetTemplate</title>
+    <title>Nick Spears - Robtics Software Developer</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Initio - Free, multipurpose html5 template by GetTemplate</description>
+    <description>Recent content on Nick Spears - Robtics Software Developer</description>
     <generator>Hugo</generator>
     <language>en</language>
+    <lastBuildDate>Sun, 04 Aug 2024 15:42:31 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Download original template</title>
+      <link>http://localhost:1313/home/downloads/download1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/home/downloads/download1/</guid>
+      <description>/content/home/downloads/download1.md&#xA;A simple, nice-looking call to action box. Boxing is about respect. getting it for yourself, and taking it away from the other guy. no, this is mount everest.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>Nick Spears Goals subtext&#xA;Background subtext</description>
+    </item>
+    <item>
+      <title>Resume</title>
+      <link>http://localhost:1313/resume/resume/</link>
+      <pubDate>Sun, 04 Aug 2024 15:42:31 -0400</pubDate>
+      <guid>http://localhost:1313/resume/resume/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/home/subheader/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/home/subheader/</guid>
+      <description>&amp;ldquo;/content/home/subheader.md&amp;rdquo;&#xA;how to link to parts of page: you text me text.</description>
+    </item>
+    <item>
+      <title>Blog Post 1</title>
+      <link>http://localhost:1313/home/services/service3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/home/services/service3/</guid>
+      <description>&lt;p&gt;/content/home/services/service3.md&lt;/p&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Blog Post 2</title>
+      <link>http://localhost:1313/home/services/service1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/home/services/service1/</guid>
+      <description>&lt;p&gt;/content/home/services/service1.md&lt;/p&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Blog Post 3</title>
+      <link>http://localhost:1313/home/services/service2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/home/services/service2/</guid>
+      <description>&lt;p&gt;/content/home/services/service2.md&lt;/p&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Download HUGO template</title>
+      <link>http://localhost:1313/home/downloads/download2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/home/downloads/download2/</guid>
+      <description>/content/home/downloads/download2.md&#xA;Another simple, nice-looking call to action box. Boxing is about respect. getting it for yourself, and taking it away from the other guy. no, this is mount everest.</description>
+    </item>
+    <item>
+      <title>Further Reading</title>
+      <link>http://localhost:1313/home/services/service4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/home/services/service4/</guid>
+      <description>&lt;p&gt;/content/home/services/service4.md&lt;/p&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
