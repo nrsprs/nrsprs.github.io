@@ -1,5 +1,5 @@
 +++
-title = "Further Reading"
+title = "More Blogs"
 +++
 
 /content/home/services/service4.md
