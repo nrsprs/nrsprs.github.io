@@ -68,3 +68,5 @@ Thumbs.db
 !.gitignore
 !.nvmrc
 !.phpcs.xml.dist
+
+# /themes/hugo-initio
