@@ -6,7 +6,7 @@ weight = 10
 
 # Nick Spears
 
-![about](../images/about_wide1.jpg)
+![about](../images/about_wide.jpg)
 
 ### Goals
 My goal is to develop high-quality, impactful robotics solutions using years of expertise with industrial automation hardware and software systems to make a more sustainable and equitable world.
