@@ -70,3 +70,4 @@ Thumbs.db
 !.phpcs.xml.dist
 
 # /themes/hugo-initio
+.DS_Store
