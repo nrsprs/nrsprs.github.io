@@ -1,9 +1,9 @@
 [
     {
         "id": 0,
-        "name": "Sample title - big data solutions",
+        "name": "Project 1",
         "image": "images/joe-cool-snoopy.png",
-        "url": "#",
+        "url": "/home/projects/project1/",
         "items": [
             {
                 "name": "Web design",
@@ -63,38 +63,6 @@
             },
             {
                 "name": "Wordpress",
-                "url": "#"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/joe-cool-snoopy.png",
-        "url": "#",
-        "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Logotype",
-                "url": "#"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/joe-cool-snoopy.png",
-        "url": "#",
-        "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Logotype",
                 "url": "#"
             }
         ]
