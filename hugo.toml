@@ -36,11 +36,11 @@ title = "Nick Spears - Robtics Software Developer"
     site = "hugo-initio-site.disqus.com"
 
 [params.sharethis]
-    property = "123456789012345678901234"
+    property = ""
     custom = true
 
 [params.google.analytics]
-    trackerID = "GA-000000000-0"
+    trackerID = ""
 
 [[params.social]]
 	title = "linkedin"

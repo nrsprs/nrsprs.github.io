@@ -66,37 +66,5 @@
                 "url": "#"
             }
         ]
-    },
-    {
-        "id": 4,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/joe-cool-snoopy.png",
-        "url": "#",
-        "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Logotype",
-                "url": "#"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/joe-cool-snoopy.png",
-        "url": "#",
-        "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Logotype",
-                "url": "#"
-            }
-        ]
     }
 ]

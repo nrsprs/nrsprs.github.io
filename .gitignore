@@ -10,6 +10,7 @@ node_modules/
 # Ignore build directories.
 /build
 /dist
+/public
 
 # ignore composer vendor directory
 /vendor
