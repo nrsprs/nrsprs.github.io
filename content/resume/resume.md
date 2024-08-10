@@ -1,5 +1,6 @@
 +++
-menu = "resume"
+menu = "main"
+title = "Resume"
 type = "resume"
 +++
 

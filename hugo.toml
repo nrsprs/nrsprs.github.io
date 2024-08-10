@@ -1,7 +1,6 @@
 baseURL = "https://nrsprs.github.io/"
 languageCode = "en"
 title = "Nick Spears - Robtics Software Developer"
-theme = "hugo-initio"
 
 [params]
     name = "Nick Spears"
@@ -32,14 +31,6 @@ theme = "hugo-initio"
     name = "home"
     url = "/"
     weight = 1
-[[menu.main]]
-    name = "resume"
-    url = "/resume/"
-    weight = 2
-[[menu.main]]
-    name = "about"
-    url = "/about/"
-    weight = 3
 
 [params.disqus]
     site = "hugo-initio-site.disqus.com"

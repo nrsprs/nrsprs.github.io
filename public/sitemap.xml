@@ -16,11 +16,11 @@
   </url><url>
     <loc>http://localhost:1313/home/clients/</loc>
   </url><url>
-    <loc>http://localhost:1313/resume/resume/</loc>
-  </url><url>
     <loc>http://localhost:1313/about/about/</loc>
   </url><url>
     <loc>http://localhost:1313/home/services/service3/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
@@ -31,6 +31,8 @@
     <loc>http://localhost:1313/home/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/resume/resume/</loc>
   </url><url>
     <loc>http://localhost:1313/home/services/service4/</loc>
   </url><url>

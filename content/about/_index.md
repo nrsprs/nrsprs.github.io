@@ -1,6 +1,6 @@
 +++
 title = "About"
-type = "main"
+type = "about"
 weight = 3
 +++
 

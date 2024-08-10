@@ -4,7 +4,7 @@ title = "About"
 type = "about"
 +++
 
-![about](./about_wide.jpg)
+![about](/images/about_wide.jpg)
 
 ### Goals 
 
