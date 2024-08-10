@@ -401,11 +401,11 @@ img {
 }
 .thumbnail {
   display: block;
-  -webkit-border-radius: 0;
+  -webkit-border-radius: 25;
   -webkit-background-clip: padding-box;
-  -moz-border-radius: 0;
+  -moz-border-radius: 25;
   -moz-background-clip: padding;
-  border-radius: 0;
+  border-radius: 25;
   background-clip: padding-box;
   border: 0 none;
   margin-bottom: 10px;
@@ -837,4 +837,7 @@ footer.entry-meta .meta-in {
    &:hover, &:focus {
       color: #004488;
    }
+}
+.rounded-corners {
+  border-radius: 15px;
 }
