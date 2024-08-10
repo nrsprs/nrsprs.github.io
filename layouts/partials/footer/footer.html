@@ -16,12 +16,14 @@
 
 			{{ if .Site.Params.showFooterFollowMe }}
 			<div class="col-md-3 widget">
-				<h3 class="widget-title">{{ i18n "footer_followme_title" }}</h3>
+				<h3 class="widget-title">{{"Contact"}}</h3>
 				<div class="widget-body">
+					{{ if .Site.Params.email }}<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a><br>{{ end }}
 					<p class="follow-me-icons">
             {{ range .Site.Params.social }}
 							{{ if .footer }}
 								<a href="{{ .url }}" target="_blank"><i class="{{ .icon }} fa-1x"></i></a>
+								
 							{{ end }}
             {{ end }}
 					</p>
@@ -78,7 +80,7 @@
                                                 {{ else }}
                                                 Copyright &copy; {{ .Site.Params.year }}, {{ .Site.Params.name }}<br>
                                                 {{ end }}
-						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> -
+						Design: <a href="https://github.com/miguelsimoni/hugo-initio" rel="designer">Initio</a> -
 						Powered by: <a href="https://gohugo.io/" rel="poweredby">Hugo</a>
 					</p>
 				</div>

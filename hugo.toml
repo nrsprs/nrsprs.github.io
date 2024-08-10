@@ -19,13 +19,13 @@ title = "Nick Spears - Robtics Software Developer"
     showSubheader = true
     showServices = true
     showRecentWorks = true
-    showDownloads = true
-    showClients = true
+    showDownloads = false
+    showClients = false
 
-    showFooterContact = true
+    showFooterContact = false
     showFooterFollowMe = true
-    showFooterTextWidget = true
-    showFooterFormWidget = true
+    showFooterTextWidget = false
+    showFooterFormWidget = false
 
 [[menu.main]]
     name = "home"
