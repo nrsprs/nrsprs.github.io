@@ -6,16 +6,18 @@
 		<div class="row topspace">
 			<div class="col-sm-8 col-sm-offset-2">
 
- 				<article class="post">
+				<article class="post">
 					<header class="entry-header">
- 						<div class="entry-meta">
-               <span class="posted-on">
-                  <time class="entry-date published" datetime="{{ .Date.Format .Site.Params.DateForm }}">
-                    {{- .Date.Format "January 2, 2006" -}}
-                  </time>
-               </span>
- 						</div>
- 						<h1 class="entry-title"><a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a></h1>
+						<div class="row">
+							<div class="col-sm-">
+								<div class="entry-meta">
+									</span>
+								</div>
+							</div>
+							<div class="col-sm-10">
+								<h1 class="entry-title"><a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a></h1>
+							</div>
+						</div>
 					</header>
 					<div class="entry-content">
 						{{ .Content }}
@@ -30,7 +32,7 @@
 
 				<div id="share">
 					{{ if .Params.Share }}
-							{{ partial "sharethis.html" . }}
+					{{ partial "sharethis.html" . }}
 					{{ end }}
 				</div>
 			</div>
@@ -42,14 +44,14 @@
 
 				<div id="comments">
 					{{ if .Params.Comments }}
-							{{ partial "disqus.html" . }}
+					{{ partial "disqus.html" . }}
 					{{ end }}
 				</div>
 			</div>
 		</div> <!-- /row comments -->
 		<div class="clearfix"></div>
 
-	</div>	<!-- /container -->
+	</div> <!-- /container -->
 
 </main>
 {{ end }}

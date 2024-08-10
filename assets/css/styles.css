@@ -230,8 +230,8 @@ a:hover {
 
 #head img {
   display: block;
-  width: 140px;
-  height: 140px;
+  width: 200px;
+  height: 200px;
   overflow: hidden;
   border: 9px solid rgba(0, 0, 0, 0.05);
   margin: 0 auto;
@@ -252,7 +252,7 @@ a:hover {
 #head .title {
   font-family: "Open sans";
   font-size: 60px;
-  font-weight: 500;
+  font-weight: 600;   /* Nick Spears heading text weight*/
   font-size: 4.0625rem;
 }
 #head .title a {
