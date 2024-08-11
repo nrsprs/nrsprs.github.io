@@ -74,3 +74,20 @@ I think the exposed wires look really cool, so this is a pro. It makes my headph
 #### Hinge Fix Design:
 ![Original Hinge Design](/images/headphones/original_hinge_notch_rounded.png)
 
+The yellow highlighted notch is what is supposed to keep the drivers and ear pads tight against the head, and is the problem part that broke. 
+
+The solution is a small, 3D printed bracket that replaces the functionality of that notch. With M3 screws and a few grams of PLA, the notch should be restored. 
+
+![New Hinge Design](/images/headphones/hinge_assembly_drawing_rounded.png)
+*Hinge Redesign*
+
+I printed a few sets of these, trying to dial in print settings, material, and the design. Failure on the left driver made it clear that a harder plastic like PLA was better suited to support the hinge. 
+
+A wall thickness greater than 100 allows for 100% infill without the infill patern, creating a stronger matrix that resists deformation at the notch, which was a common problem, especially in the PETG parts.
+
+#### Results:
+
+![Final Repair Results](/images/headphones/final_repair_rounded.png)
+*Completed Repair*
+
+This is the finished product, a half melted, hacked together headset that allows me to give new life to my old headphones while making them look badass. It took about three or four hours to do all of the repair work by hand, and a few more idle hours for printing. 
