@@ -1,10 +1,13 @@
-
 <div class="row">
-    {{ range where .Data.Pages "Section" .Section }}
-      <div class="col-sm-6 col-md-3">
-        <h3 class="text-center">{{ .Title }}</h3>
-        <p>{{ .Summary }}</p>
-        <p class="text-center"><a href="{{ .Permalink }}" class="btn btn-action">Read more</a></p>
-      </div>
-    {{ end }}
+  {{ range where .Data.Pages "Section" .Section }}
+    <div class="col-sm-6 col-md-3">
+      <h3 class="text-center">
+        <a href="{{ .Permalink }}" style="color: black;">{{ .Title }}</a>
+      </h3>
+      <p>{{ .Summary }}</p>
+      <p class="text-center">
+        <a href="{{ .Permalink }}" class="btn btn-action" style="color: black;">Read more</a>
+      </p>
+    </div>
+  {{ end }}
 </div>
