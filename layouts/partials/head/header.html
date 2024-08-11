@@ -1,13 +1,18 @@
 <header id="header">
   <div id="head" class="parallax" data-parallax-speed="2" style="background-image:url('{{ .Site.BaseURL }}{{ .Site.Params.banner }}');">
-    <h1 id="logo" class="text-center">
-      <img class='img-{{ .Site.Params.avatarclass | default "circle"}}' src="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}" alt="">
-      <span class="title">{{ .Site.Params.name }}</span>
-      <span class="tagline">{{ .Site.Params.description }}<br>
-        <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
-      </span>
-   </h1>
-</div>
+    <a href="/" class="text-center">
+      <h1 id="logo" style="text-align: center;">
+        <img class='img-{{ .Site.Params.avatarclass | default "circle"}}' src="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}" alt="">
+        <!-- <span class="title">{{ .Site.Params.name }}</span> -->
+        <span><a href="/" style="color: #333333; font-size: 1.3em;"><strong>{{ .Site.Params.name }}</strong></a></span>
+        <span class="tagline" style="display: block; text-align: center;">
+          {{ .Site.Params.description }}<br>
+          <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+        </span>
+      </h1>
+    </a>
+  </div>
 
-{{ partial "head/menu.html" . }}
+  {{ partial "head/menu.html" . }}
 </header>
+s
