@@ -16,6 +16,6 @@ I Graduated Summa Cum Laude from the Rochester Institute of Technology with a Ba
 
 My work with the Golisano Institute for Sustainability has enabled my contributions to the application of automation technology in the circular economy. With GIS, I grew a passion for programming robots to handle used parts for recycling and determine the best methods for reusing high energy cost products. 
 
-In my first co-op with GIS, I learned ROS and dug deep into FOSS linux computing to leverage the large software community in support of our projects.
+In my first co-op with GIS, I learned ROS and dug deep into FOSS linux computing to leverage the large software community in support of projects that enable New York State companies to produce goods more sustainabily.
 
-My first co-op during my undergrad at Alstom Transport, I gained an invaluable perspective on train design and how large, synchronous systems are built. I was able to leverage my mechanical design skills and improve mechanical systems. 
+My first co-op of my undergrad was with Alstom Transport in Hornell, New York. I gained an invaluable perspective on train design and how large, synchronous systems are built. I was able to leverage my mechanical design skills and improve mechanical systems.
