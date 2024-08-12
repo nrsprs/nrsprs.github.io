@@ -76,7 +76,7 @@ I think the exposed wires look really cool, so this is a pro. It makes my headph
 
 The yellow highlighted notch is what is supposed to keep the drivers and ear pads tight against the head, and is the problem part that broke. 
 
-The solution is a small, 3D printed bracket that replaces the functionality of that notch. With M3 screws and a few grams of PLA, the notch should be restored. 
+The solution is a small, 3D printed bracket that replaces the functionality of that notch. I modeled the solution in Fusion 360 and printed it on my Neptune 3. With M3 screws and a few grams of PLA, the notch should be restored. 
 
 ![New Hinge Design](/images/headphones/hinge_assembly_drawing_rounded.png)
 *Hinge Redesign*
