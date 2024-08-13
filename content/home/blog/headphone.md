@@ -97,8 +97,8 @@ The dialed in settings for these prints:
 - 70 mm/s tool speed
 
 THe STLs for the hinges are available for modification and use:
-* [[ *Inside Bracket* ]](https://raw.githubusercontent.com/nrsprs/nrsprs.github.io/blob/master/static/files/headphones/inside.stl) 
-* [[ *Outside Bracket* ]](https://raw.githubusercontent.com/nrsprs/nrsprs.github.io/blob/master/static/files/headphones/outside.stl)
+* [[ *Inside Bracket* ]](https://github.com/nrsprs/nrsprs.github.io/blob/master/static/files/headphones/inside.stl) 
+* [[ *Outside Bracket* ]](https://github.com/nrsprs/nrsprs.github.io/blob/master/static/files/headphones/outside.stl)
 
 #### Results:
 
