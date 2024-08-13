@@ -76,14 +76,29 @@ I think the exposed wires look really cool, so this is a pro. It makes my headph
 
 The yellow highlighted notch is what is supposed to keep the drivers and ear pads tight against the head, and is the problem part that broke. 
 
-The solution is a small, 3D printed bracket that replaces the functionality of that notch. I modeled the solution in Fusion 360 and printed it on my Neptune 3. With M3 screws and a few grams of PLA, the notch should be restored. 
+The solution is a small, 3D printed bracket that replaces the functionality of that notch. I modeled the solution in Fusion 360 and printed it on my Neptune 3. With M3 x 16 screws and a few grams of PLA, the notch should be restored. 
 
 ![New Hinge Design](/images/headphones/hinge_assembly_drawing_rounded.png)
 *Hinge Redesign*
 
 I printed a few sets of these, trying to dial in print settings, material, and the design. Failure on the left driver made it clear that a harder plastic like PLA was better suited to support the hinge. 
 
+~[Slicer View of Hinge Print](/images/headphones/hinge_layer_rounded.png)
+
 A wall thickness greater than 100 allows for 100% infill without the infill patern, creating a stronger matrix that resists deformation at the notch, which was a common problem, especially in the PETG parts.
+
+THe settings I used for these prints was:
+- .15 mm layer height 
+- .25 mm first layer height 
+- any infill
+- 100+ perimiters
+- no brim
+- 1.75 mm PLA @ 210 C nozzle, 60 C bed
+- 70 mm/s tool speed
+
+THe STLs for the hinges are available for modification and use:
+* [[ *Inside Bracket* ]]() 
+* [[ *Outside Bracket* ]]()
 
 #### Results:
 
