@@ -83,11 +83,11 @@ The solution is a small, 3D printed bracket that replaces the functionality of t
 
 I printed a few sets of these, trying to dial in print settings, material, and the design. Failure on the left driver made it clear that a harder plastic like PLA was better suited to support the hinge. 
 
-~[Slicer View of Hinge Print](/images/headphones/hinge_layer_rounded.png)
+![Slicer View of Hinge Print](/images/headphones/hinge_layer_rounded.png)
 
 A wall thickness greater than 100 allows for 100% infill without the infill patern, creating a stronger matrix that resists deformation at the notch, which was a common problem, especially in the PETG parts.
 
-THe settings I used for these prints was:
+The dialed in settings for these prints:
 - .15 mm layer height 
 - .25 mm first layer height 
 - any infill
@@ -97,8 +97,8 @@ THe settings I used for these prints was:
 - 70 mm/s tool speed
 
 THe STLs for the hinges are available for modification and use:
-* [[ *Inside Bracket* ]]() 
-* [[ *Outside Bracket* ]]()
+* [[ *Inside Bracket* ]](https://raw.githubusercontent.com/nrsprs/nrsprs.github.io/blob/master/static/files/headphones/inside.stl) 
+* [[ *Outside Bracket* ]](https://raw.githubusercontent.com/nrsprs/nrsprs.github.io/blob/master/static/files/headphones/outside.stl)
 
 #### Results:
 
