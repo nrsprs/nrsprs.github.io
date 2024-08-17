@@ -1,68 +1,68 @@
 [
     {
         "id": 0,
-        "name": "Project 1",
-        "image": "images/joe-cool-snoopy.png",
-        "url": "/home/projects/project1/",
+        "name": "Core Identification",
+        "image": "images/coreid/thumb_rounded.png",
+        "url": "/home/projects/coreid/",
         "items": [
             {
-                "name": "Web design",
+                "name": "Info",
+                "url": "/home/projects/coreid/"
+            },
+            {
+                "name": "Resources",
                 "url": "#"
             },
             {
-                "name": "Wordpress",
-                "url": "#"
-            },
-            {
-                "name": "Logotype",
+                "name": "Media",
                 "url": "#"
             }
         ]
     },
     {
         "id": 1,
-        "name": "Pure ipsum - development services for people",
-        "image": "images/joe-cool-snoopy.png",
-        "url": "#",
+        "name": "DirtBot",
+        "image": "images/dirtbot/thumb_rounded.png",
+        "url": "/home/projects/dirtbot/",
         "items": [
             {
-                "name": "Web design",
-                "url": "#"
+                "name": "Info",
+                "url": "/home/projects/dirtbot/"
             },
             {
-                "name": "Wordpress",
-                "url": "#"
+                "name": "GitHub",
+                "url": "https://github.com/nrsprs/dirtbot"
             }
         ]
     },
     {
         "id": 2,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/joe-cool-snoopy.png",
-        "url": "#",
+        "name": "CatBot",
+        "image": "images/catbot/thumb_rounded.png",
+        "url": "/home/projects/catbot/",
         "items": [
             {
-                "name": "Web design",
-                "url": "#"
+                "name": "Info",
+                "url": "/home/projects/catbot/"
             },
             {
-                "name": "Logotype",
-                "url": "#"
+                "name": "GitHub",
+                "url": "https://github.com/RIT-MDRC/Catbot"
             }
         ]
     },
     {
         "id": 3,
-        "name": "Pure ipsum - development services for people",
-        "image": "images/joe-cool-snoopy.png",
-        "url": "#",
+        "name": "Robotic Inspection",
+        "image": "images/robinsp/thumb_rounded.png",
+        "url": "/home/projects/robotic_inspection/",
         "items": [
             {
-                "name": "Web design",
-                "url": "#"
+                "name": "Info",
+                "url": "/home/projects/robotic_inspection/"
             },
             {
-                "name": "Wordpress",
+                "name": "Resources",
                 "url": "#"
             }
         ]

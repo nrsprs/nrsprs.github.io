@@ -1,12 +1,12 @@
 +++
 title = "Desk Redesign"
-weight = 2
+weight = 3
 +++
 
-*July 5, 2024*
+*July 5, 2023*
 
-Blog post 2.
+![Desk Thumbnail](/images/desk/thumb_rounded.png)
 
 <!--more-->
 
-Remaining post.
+# UNDER CONSTRUCTION
