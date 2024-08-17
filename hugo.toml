@@ -19,8 +19,8 @@ title = "Nick Spears - Robtics Software Developer"
     showSubheader = true
     showServices = true
     showRecentWorks = true
-    showDownloads = false
-    showClients = false
+    showDownloads = true
+    showClients = true
 
     showFooterContact = false
     showFooterFollowMe = true

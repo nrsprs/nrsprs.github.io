@@ -6,20 +6,20 @@
       {{ if .Site.Params.showSubheader }}
         {{ partial "home/subheader.html" . }}
       {{ end }}
-      
-        {{ range .Site.Sections }}
-            {{ range .Sections.ByWeight }}
-                {{ $stype := .Type}}
-                {{ if (or (and (eq $stype "service") (.Site.Params.showServices))
-                          (and (eq $stype "recentwork") (.Site.Params.showRecentWorks))
-                          (and (eq $stype "download") (.Site.Params.showDownloads))
-                          (and (eq $stype "client") (.Site.Params.showClients))
-                          (eq $stype "single")) }}
+      {{ range .Site.Sections }}
+      {{ range .Sections.ByWeight }}
+      {{ $stype := .Type}}
+      {{ if (or (and (eq $stype "service") (.Site.Params.showServices))
+      (and (eq $stype "recentwork") (.Site.Params.showRecentWorks))
+      (and (eq $stype "download") (.Site.Params.showDownloads))
+      (and (eq $stype "client") (.Site.Params.showClients))
+      (eq $stype "single")) }}
 
-                     <div class="row section featured topspace">
-                       <h2 class="section-title">
-                         <span>{{.Title}}</span>
-                       </h2>
+      
+      <div class="row section featured topspace">
+        <h2 class="section-title">
+          <span>{{.Title}}</span>
+        </h2>
                      {{ if eq $stype "service" }}
                        {{ partial "home/services.html" . }}
 
