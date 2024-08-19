@@ -66,5 +66,37 @@
                 "url": "#"
             }
         ]
+    },
+    {
+        "id": 4,
+        "name": "Automated Tray Loading & Unloading",
+        "image": "images/beets/thumb_rounded.png",
+        "url": "/home/projects/beets/",
+        "items": [
+            {
+                "name": "Info",
+                "url": "/home/projects/beets/"
+            },
+            {
+                "name": "Resources",
+                "url": "#"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Protective Watchdog for UR Series",
+        "image": "images/robinsp/thumb_rounded.png",
+        "url": "/home/projects/pstop/",
+        "items": [
+            {
+                "name": "Info",
+                "url": "/home/projects/pstop/"
+            },
+            {
+                "name": "Resources",
+                "url": "#"
+            }
+        ]
     }
 ]
