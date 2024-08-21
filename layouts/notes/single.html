@@ -1,0 +1,24 @@
+{{ define "main" }}
+<main id="main">
+
+	<div class="container">
+
+		<div class="row topspace">
+
+			<aside class="col-sm-4 sidebar sidebar-right">
+
+				<div class="nav text-right nav-side">
+					<li class="active"><a href="#">{{ .Title }}</a></li>
+				</div>
+
+			</aside>
+
+			<!-- Article main content -->
+				{{ .Content }}
+
+
+		</div>
+	</div> <!-- /container -->
+
+</main>
+{{ end }}
