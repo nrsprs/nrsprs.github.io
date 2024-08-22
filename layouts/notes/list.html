@@ -6,7 +6,7 @@
     <title>Notes</title>
     <style>
         body {
-            font-family: Verdana;
+            font-family: Verdana, serif;
             margin: 20px;
             padding: 0;
         }
@@ -25,16 +25,32 @@
         .note-list a:hover {
             text-decoration: underline;
         }
+        .directory {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .subdirectory {
+            padding-left: 20px;
+        }
     </style>
 </head>
+
 <body>
     <h1>Notes</h1>
     <ul class="note-list">
+        {{ $currentDir := "" }}
         {{ range .Pages }}
-        <li>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </li>
+            {{ if ne $currentDir (path.Dir .File.Path) }}
+                {{ if not (eq (path.Dir .File.Path) "/notes") }}
+                    <li class="directory"> /{{ path.Dir .File.Path}}:</li>
+                {{ end }}
+                {{ $currentDir = path.Dir .File.Path }}
+            {{ end }}
+            <li class="{{ if ne (path.Dir .File.Path) "/notes" }}subdirectory{{ end }}">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </li>
         {{ end }}
     </ul>
 </body>
+
 </html>
