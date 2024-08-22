@@ -19,7 +19,7 @@
         }
         .note-list a {
             text-decoration: none;
-            color: #007acc;
+            color: #339a65;
             font-weight: bold;
         }
         .note-list a:hover {
@@ -42,8 +42,7 @@
         {{ range .Pages }}
             {{ if ne $currentDir (path.Dir .File.Path) }}
                 {{ if not (eq (path.Dir .File.Path) "/notes") }}
-                    <li class="directory"> /{{ path.Dir .File.Path}}:</li>
-                {{ end }}
+                    <li class="directory">{{ (path.Dir .File.Path | replaceRE "^notes" "") }}</li>               {{ end }}
                 {{ $currentDir = path.Dir .File.Path }}
             {{ end }}
             <li class="{{ if ne (path.Dir .File.Path) "/notes" }}subdirectory{{ end }}">

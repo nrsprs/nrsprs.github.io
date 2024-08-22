@@ -1,5 +1,5 @@
 +++
-title = "605 Lecture 1"
+title = "Lecture 1"
 type = "notes"
 +++
 
