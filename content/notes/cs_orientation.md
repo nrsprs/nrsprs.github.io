@@ -37,7 +37,7 @@ Coffee hour every week for socalization, not academics.
 * There is no tissue box in HP's office
 
 
-#### CS resources:
+#### CS Resources:
 
 * [cs.rit.edu](https://cs.rit.edu/)
 

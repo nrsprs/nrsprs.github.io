@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <style>
+        body {
+            font-family: Verdana;
+            margin: 20px;
+            padding: 0;
+        }
+        .note-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .note-list li {
+            margin: 10px 0;
+        }
+        .note-list a {
+            text-decoration: none;
+            color: #007acc;
+            font-weight: bold;
+        }
+        .note-list a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Notes</h1>
+    <ul class="note-list">
+        {{ range .Pages }}
+        <li>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+    </ul>
+</body>
+</html>
