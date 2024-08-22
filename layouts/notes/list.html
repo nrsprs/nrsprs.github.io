@@ -28,6 +28,7 @@
         .directory {
             font-weight: bold;
             margin-top: 20px;
+            padding-top: 20px;
         }
         .subdirectory {
             padding-left: 20px;
@@ -42,7 +43,8 @@
         {{ range .Pages }}
             {{ if ne $currentDir (path.Dir .File.Path) }}
                 {{ if not (eq (path.Dir .File.Path) "/notes") }}
-                    <li class="directory">{{ (path.Dir .File.Path | replaceRE "^notes" "") }}</li>               {{ end }}
+                    <li class="directory">{{ (path.Dir .File.Path | replaceRE "^notes" "") }}/:</li>
+                {{ end }}
                 {{ $currentDir = path.Dir .File.Path }}
             {{ end }}
             <li class="{{ if ne (path.Dir .File.Path) "/notes" }}subdirectory{{ end }}">
