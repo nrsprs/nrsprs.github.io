@@ -15,7 +15,7 @@ SWIR image processing software required:
 * mvGenTLProducer.cti
 * ImpactAcquire software
 * Supported on x86 windows, linux, macos
-* https://www.balluff.com/en-us/products/MP1830863
+* https://www.balluff.com/en-us/products/MP18308637
 
 Area RGB hardware required:
 * No clue 
@@ -30,6 +30,8 @@ Line RGB hardware required:
 Line RGB software required:
 * GEVTL.cti
 * https://forum.commonvisionblox.com/t/common-vision-blox-drivers/676
+
+This is installed to: %cvb% under /Program Files/STEMMER IMAGING/Common Vision Blox/
 
 
 CDModel Software Requirements: 
