@@ -5,6 +5,10 @@ type = "notes"
 
 Nike Software Environment Requirements: 
 
+Nick's Requirements:
+* VS Code -- latest
+* Git bash -- need a real terminal on this machine
+
 harvester :>/ 
 SWIR image processing hardware required: 
 * x64 processor that has mvGenTLProducer.cti
